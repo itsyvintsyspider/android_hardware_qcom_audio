@@ -226,7 +226,7 @@ LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 # Hardware specific feature
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 ifneq ($(BOARD_OPENSOURCE_DIR), )
     LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/$(BOARD_OPENSOURCE_DIR)/audio-kernel/include
   else
