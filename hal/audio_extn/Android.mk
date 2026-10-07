@@ -77,7 +77,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -146,7 +146,7 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -226,7 +226,7 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(PRIMARY_HAL_PATH)
 endif
 
@@ -299,7 +299,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -515,7 +515,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -593,7 +593,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -664,7 +664,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -741,7 +741,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -812,7 +812,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -884,7 +884,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -969,7 +969,7 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -1030,7 +1030,7 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -1097,7 +1097,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -1163,7 +1163,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
@@ -1231,7 +1231,7 @@ endif
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
   LOCAL_C_INCLUDES += $(AUDIO_KERNEL_INC)
 endif
 
