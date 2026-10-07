@@ -74,6 +74,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
@@ -296,6 +298,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
@@ -375,6 +379,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DYNAMIC_LOG)), true)
@@ -450,6 +456,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 LOCAL_HEADER_LIBRARIES += libhardware_headers
@@ -511,6 +519,8 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
+
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
@@ -590,6 +600,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
@@ -660,6 +672,8 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
+
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
@@ -738,6 +752,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
@@ -808,6 +824,8 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
+
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
@@ -880,6 +898,8 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
+
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
@@ -1094,6 +1114,8 @@ ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
 
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
+
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
@@ -1159,6 +1181,8 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
+
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
@@ -1227,6 +1251,8 @@ LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/techpack/audio/in
 ifeq ($(ENABLE_AUDIO_LEGACY_TECHPACK),true)
 LOCAL_HEADER_LIBRARIES += qti_legacy_audio_kernel_uapi
 endif
+
+LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325 qti_alsa_compress_headers_sm7325
 
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
