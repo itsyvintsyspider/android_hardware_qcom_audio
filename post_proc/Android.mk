@@ -101,7 +101,10 @@ else
 endif # BOARD_OPENSOURCE_DIR
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  ifeq ($(ENABLE_AUDIO_SM7325_KERNEL_HEADERS),true)
+    LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
+  endif
   ifneq ($(BOARD_OPENSOURCE_DIR), )
     LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/$(BOARD_OPENSOURCE_DIR)/audio-kernel/include
   else
@@ -237,7 +240,10 @@ else
 endif # BOARD_OPENSOURCE_DIR
 
 ifeq ($(strip $(AUDIO_FEATURE_ENABLED_DLKM)),true)
-  LOCAL_HEADER_LIBRARIES += audio_kernel_headers qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
+  LOCAL_HEADER_LIBRARIES += audio_kernel_headers
+  ifeq ($(ENABLE_AUDIO_SM7325_KERNEL_HEADERS),true)
+    LOCAL_HEADER_LIBRARIES += qti_audio_sound_headers_sm7325 qti_audio_linux_headers_sm7325
+  endif
   ifneq ($(BOARD_OPENSOURCE_DIR), )
     LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/$(BOARD_OPENSOURCE_DIR)/audio-kernel/include
   else
